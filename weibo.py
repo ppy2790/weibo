@@ -14,7 +14,7 @@ imgsrc = selector.xpath('/html/body/div[2]/form/div/img[1]/@src')[0]
 index = imgsrc.find('cpt=')
 capId = imgsrc[index + 4:]
 
-print imgsrc
+print imgsrc  ### 验证码
 
 code = raw_input("plz input code:")
 
